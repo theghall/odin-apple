@@ -21,16 +21,17 @@ a:active {
   color: #fff;
 }
 
-#main-pg {
+body {
   height: 1315px;
+  width: 100%;
   background: url("../graphics/your_verse.jpg") no-repeat;
   background-position: -150px -800px;
 }
 
 #nav-wrapper {
-  position: relative;
-  top: 25px;
-  left: 50px;
+  height: 30px;
+  width: 835px;
+  margin: 25px auto 0;
 }
 
 nav ul {
@@ -68,4 +69,104 @@ nav ul li:nth-child(1) {
   background: -webkit-linear-gradient(darkgrey 50%, grey 50%);
   background:    -moz-linear-gradient(darkgrey 50%, grey 50%);
   background:         linear-gradient(darkgrey 50%, grey 50%);
+}
+
+#search-box {
+ padding-top: 7px;
+  height: 20px;
+}
+
+#verse {
+  width: 835px;
+  margin: 0 auto;
+}
+
+#verse a {
+  display: block;
+  color: #fff;
+  font-weight: light;
+  text-align: center;
+}
+
+#verse a:nth-child(n+1) {
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+#verse a:nth-child(1) {
+  font-size: 60px;
+  font-weight: lighter;
+  margin-top: 60px;
+}
+
+#ads {
+  position: relative;
+  top: 245px;
+  width: 100%;
+  height: 200px;
+}
+
+#ads img {
+  height: 200px;
+  width: 315px;
+}
+
+footer {
+  position: relative;
+  top: 250px;
+  font-size: 14px;
+}
+
+.footer-menu {
+  margin: 0 3px 0 3px;
+}
+
+#online-store {
+  margin: 0 3px 0 3px;
+}
+
+#reseller,
+#retail-store {
+  margin: 0 0 0 3px;
+}
+
+footer > a:link {
+  color: blue;
+}
+
+footer a:visited {
+  color: blue;
+}
+
+footer a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+footer a:active {
+  color: blue;
+}
+
+footer #left {
+  width: 540px;
+  margin: 0;
+  float: left;
+}
+
+footer #right {
+  width: 550px;
+  margin: 0;
+  margin-left: 25px;
+  float: left;
+}
+
+#left-right-wrapper {
+  width: 1200px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+#copyright {
+  width: 1200px;
+  margin: 0 auto;
 }
